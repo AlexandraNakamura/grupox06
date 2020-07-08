@@ -61,6 +61,7 @@ nav {
 }
 
 /*FIM MENU*/
+
 /* Cabeçalho*/
 .topo {
   margin: 2vw auto;
@@ -356,13 +357,6 @@ font-size: 0.8em;
   color: #fff;
   text-decoration: none;
 }
-
-.linkedin a:hover {
-    text-decoration: underline; 
-    color:#0006ee;
-    background:#fff; 
-    font-size:120%; 
-  }
 
 .card-body {
   width: 23.5vw;
@@ -751,18 +745,22 @@ span{
 
 @media only screen and (max-width: 550px) {
   #redes {
-  margin: auto;
-  padding: 5% 0 11% 0;
-  text-align: center;
+    margin: auto;
+    padding: 5% 0 11% 0;
+    text-align: center;
+  }
+
+  #siga {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
 }
 
-#siga {
-  margin: auto;
-  padding: 0;
-  text-align: center;
+#redes a:hover {
+  text-decoration: none;
 }
 
-}
 /*Fim da section 3*/
 
 /** POP-UP **/
