@@ -13,10 +13,24 @@ body {
   overflow-x: hidden;
 }
 /*MENU */
-#edit{
+nav {
+  background-color:#006eea;
+  margin-bottom: 1vw;
+}
+.edit {
+  width: 100%;
+  height: 4.65vw;
   background-color: #006eea;
   margin-bottom: 20px;
+  padding: 20px 0;
+  
 }
+
+.nav1 a:hover {
+  background-color: #006eea;
+
+}
+
 #itens_menu{
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -24,18 +38,25 @@ body {
   font-size: 32px;
   color: white;
 }
-nav_item:hover{
-  background-color: #006eea;
+@media screen and (max-width: 565px) {
+  nav {
+    background-color:#006eea;
+    margin-bottom: 4vw;
+  }
+
+  .edit {
+    height: 24vw;
+  }
 }
-edit:hover{
-  background-color: #006eea;
-}
-navbarSite:hover{
-  background-color: #006eea;
+.navbar-toggler{ 
+  background-color: #fff;
+  margin-right: 5vw;
+  border: #000;
+  
 }
 
-.nav-item a:hover {
-  text-decoration: underline;
+.nav-link {
+  font-size: 22px;
   color: #fff;
 }
 
