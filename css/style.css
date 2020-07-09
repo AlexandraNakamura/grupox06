@@ -353,21 +353,16 @@ font-size: 0.8em;
   border-radius: 50%;
 }
 
-.linkedin { 
-  color: #fff;
-  text-decoration: none;
-}
-
 .card-body {
   width: 23.5vw;
   height: auto;
   min-width: 320px;
-  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1.5vw;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 53px;
+  font-size: 3vw;
+  line-height: 3vw;
   text-align: center;
   padding: 0;
 }
@@ -375,13 +370,12 @@ font-size: 0.8em;
 .card-footer { 
   width: 23.5vw;
   height: auto;
-  max-width: 335px;
   min-width: 320px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 300;
-  font-size: 28px;
-  line-height: 41px;
+  font-size: 2vw;
+  line-height: 3vw;
   text-align: center;
   border: none;
   background-color: transparent;
@@ -389,19 +383,11 @@ font-size: 0.8em;
   padding: 0;
 }   
 
-.p1 {
-  width: 23.5vw;
-  height: auto;
-  max-width: 335px;
-  font-weight: 300;
-  font-size: 28px;
-  line-height: 41px;
-  text-align: center;
-  border: none;
-  background-color: transparent;
-  margin-bottom: 142px;
-  padding: 0;
+.card-footer p {
+  padding-right: 0;
 }
+
+
 
 /* Fim Section 2 */
 
@@ -915,3 +901,30 @@ span{
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+/* Responsividade dos textos*/
+@media screen and (min-width: 865px) {
+
+
+}
+@media screen and (max-width: 565px) {
+  .card-body {
+    width: 280px;
+    margin-top: 3vw;
+    font-size: 6vw;
+    line-height: 8vw;
+  }
+  
+  .card-footer { 
+    width: 280px;
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-bottom: 7.8vw;
+  }
+
+  .card-footer p {
+    width: 280px;
+    margin-right: 0;
+  }
+
+
