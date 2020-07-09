@@ -457,6 +457,19 @@ font-size: 0.8em;
   font-weight: 900;
 }
 
+/** RESPONSIVIDADE DOS CRONOMETROS **/
+@media screen and (min-width: 768px){
+  .evento p {
+    display: flex;
+    justify-content: start;
+  }
+
+  .numeros p {
+    display: flex;
+    justify-content: start;
+  }
+}
+
 /* MEDIA SECTION 3 */
 @media screen and (max-width: 768px){
   .con2 { 
