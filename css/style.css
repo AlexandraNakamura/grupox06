@@ -810,10 +810,72 @@ span{
   margin: 0;
   margin-top: 5px;
 }
-
-
   
 }
+
+@media only screen and (max-width: 768px) {
+  #redes {
+    margin: auto;
+    margin-left: 40px;
+    padding: 5% 0 11% 0;
+    text-align: left;
+  }
+
+  #siga {
+    margin: auto;
+    margin-left: 40px;
+    padding: 0;
+    text-align: left;
+  }
+
+  #btn_insc {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+  }
+  #btn_insc1{
+      background-color: #0B6EE6;
+      color:white;
+      font-family: 'Oswald', sans-serif;
+      width: 204px;
+      border:1px solid#0B6EE6;
+      border-radius: 75px;
+      margin: 0;
+  }
+  #btn_ind{
+      padding-top: 35px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+  #btn_ind1{
+      background-color: #2717E6;
+      color:white;
+      font-family: 'Oswald', sans-serif;
+      width: 200px;
+      border:1px solid#2717E6;
+      border-radius: 75px;
+  }
+
+.c2 {
+  padding: 0;
+}
+
+.del1 { 
+  margin: 0;
+  max-width: 260px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  margin-left: -5px;
+}
+
+.textmeio {
+  margin-left: 3vw;
+}
+  
+}
+
+
 
 #redes a:hover {
   text-decoration: none;
